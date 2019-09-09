@@ -25,7 +25,7 @@ A partire da queste considerazioni, Gter ha sviluppato il **Plugin QGIS CDU Crea
 
 Il **Plugin CDU Creator** genera un file .pdf contenete tutte le informazioni necessarie per la validità del CDU a partire dai layers vettoriali dei terreni catastali e dello strumento urbanistico vigente (PUC, PRG, ecc.). I dati vettoriali dello strumento urbanistico, organizzati in gruppi e sottogruppi, vengono intersecati con la particella catastale selezionata dall'utente, le informazioni relative alle aree del piano interessate vengono automaticamente recuperate e stampate nel file .pdf. 
 
-L'output finale è un file .pdf contente il CDU generato automaticamente e personalizzato in base ai parametri definiti tramite l'interfaccia grafica dall'utente. Il CDU ad esempio conterrà non solo le informazione relative alle aree dello strumento urbanistico interessate ma anche la mappa con la visualizzazione della particella selezionata, titolo e logo del comune definiti dall'utente e, se indicata, anche un paragrafo di introduzione al documento contenete eventuali riferimenti normativi che devono essere indicati nel CDU per renderlo valido a tutti gli effetti.
+L'output finale è un file .pdf contente il CDU generato automaticamente e personalizzato in base ai parametri definiti tramite l'interfaccia grafica dall'utente. Il CDU conterrà quindi, non solo le informazione relative alle aree dello strumento urbanistico interessate ma anche la mappa con la visualizzazione della particella selezionata, titolo e logo del Comune definiti dall'utente e, se indicata, anche un paragrafo di introduzione al documento contenete eventuali riferimenti normativi, diciture o altro che devono essere indicati nel CDU per renderlo valido a tutti gli effetti.
 
 
 Glossario
