@@ -27,7 +27,7 @@ Graphical User Interface
 --------------------------------------------
 
 
-.. image:: img/gui.png
+.. image:: img/gui2.png
 
 * **1 - 
 * **2 - 
