@@ -40,7 +40,7 @@ In ogni caso i layers dello strumento urbanistico devono necessariamente essere 
 
 Gruppo, sottogruppi e layers possono essere nominati liberamente, si consiglia comunque di nominare i vari elementi in modo appropriato dal momento che sia il nome del gruppo che quello dei sottogruppi e layers compariranno nel CDU finale generato dal plugin, come mostrato nello stralcio nell'immagine sotto dove in rosso è indicato il nome del Gruppo, in blu il nome del sottogruppo e in verde il nome del layer.
 
-.. image:: img/subg_layer.png
+.. image:: img/subg_layer2.png
 
 .. _graphical-user-interface:
 
