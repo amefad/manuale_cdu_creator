@@ -20,7 +20,12 @@ Il pdf finale del CDU sarà quindi salvato nella cartella indicata dall'utente e
 
 Preparazione dei Dati
 --------------------------------------------
-Per il corretto funzionamento del Plugin **CDU Creator**
+Per il corretto funzionamento del Plugin **CDU Creator** è ncessario preparare e organizzare i dati all'interno del progetto QGIS in modo appropriato.
+
+In generale, sia il layer dei terreni catastali sia i layers dello strumento urbanistico devono essere layer vettoriali poligonali (shapefile, GeoPackage, tabella PostGIS, ecc.). Il primo deve essere necessariamente nominato **terreni_catastali** altrimenti il plugin restituirà un messaggio di errore all'avvio segnalando appunto la mancanza di un layer nominato *terreni_catastali* all'interno del progetto QGIS. I layers dello strumento urbanistico invece, devono essere necessariamente inseriti all'interno di un gruppo nel quale NON deve essere inserito invece il layer *terreni_catastali*.
+
+Terreni Catastali
+++++++++++++++++++
 
 .. _graphical-user-interface:
 
