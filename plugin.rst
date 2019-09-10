@@ -36,11 +36,13 @@ Per quanto riguarda i layers che compongono lo strumento urbanistico, questi dev
 
 .. image:: img/layer_tree.png
 
-In ogni caso i layers dello strumento urbanistico devono necessariamente essere inseriti in un gruppo, la siddivisione del gruppo in sottogruppi invece è facoltativa.
+In ogni caso i layers dello strumento urbanistico devono **necessariamente essere inseriti in un gruppo**, la siddivisione del gruppo in sottogruppi invece è facoltativa.
 
 Gruppo, sottogruppi e layers possono essere nominati liberamente, si consiglia comunque di nominare i vari elementi in modo appropriato dal momento che sia il nome del gruppo che quello dei sottogruppi e layers compariranno nel CDU finale generato dal plugin, come mostrato nello stralcio nell'immagine sotto dove in rosso è indicato il nome del Gruppo, in blu il nome del sottogruppo e in verde il nome del layer.
 
 .. image:: img/subg_layer2.png
+
+Come già anticipato nell'introduzione di questo manuale, nel CDU vengono stampate le informazioni relative alle diverese aree dello strumento urbanistico che intersecano la particella selezionata. Queste informazioni vengono automaticamente recuperate dalle tabelle degli attributi dei diversi layers dello strumento urbanistico. Per questo motivo, anche la tabelle dei layers dello strumento urbanistico devono essere organizzate in modo tale da consentire il corretto funzionamento del plugin.
 
 .. _graphical-user-interface:
 
