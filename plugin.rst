@@ -32,6 +32,13 @@ Il layer *terreni_catastali* deve necessariamente contenere nella relativa tabel
 
 Layers Strumento Urbanistico
 ++++++++++++++++++++++++++++
+Per quanto riguarda i layers che compongono lo strumento urbanistico, questi devono essere organizzati in gruppi e sottogruppi a seconda della complessità dello strumento stesso. Ad esempio, il PRG di un piccolo Comune composto da pochi layers può essere facilmente organizzato in un soingolo gruppo, mentre il PUC di un grande Comune potrebbe essere organizzato appunto in un gruppo suddiviso in sottogruppi come mostrato nell'immagine sotto.
+
+.. image:: img/layer_tree.png
+
+In ogni caso i layers dello strumento urbanistico devono necessariamente essere inseriti in un gruppo, la siddivisione del gruppo in sottogruppi invece è facoltativa.
+
+**NB:** il massimo livello di "gerarchizzazione" del gruppo è il sottogruppo, non creare quindi ulteriori sottogruppi all'interno dei sottogruppi altrimenti il Plugin non funzionerà correttamente.
 
 
 .. _graphical-user-interface:
