@@ -20,6 +20,7 @@ Il pdf finale del CDU sarà quindi salvato nella cartella indicata dall'utente e
 
 Preparazione dei Dati
 --------------------------------------------
+Per il corretto funzionamento del Plugin **CDU Creator**
 
 .. _graphical-user-interface:
 
