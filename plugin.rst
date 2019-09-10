@@ -38,8 +38,9 @@ Per quanto riguarda i layers che compongono lo strumento urbanistico, questi dev
 
 In ogni caso i layers dello strumento urbanistico devono necessariamente essere inseriti in un gruppo, la siddivisione del gruppo in sottogruppi invece è facoltativa.
 
-**NB:** il massimo livello di "gerarchizzazione" del gruppo è il sottogruppo, non creare quindi ulteriori sottogruppi all'interno dei sottogruppi altrimenti il Plugin non funzionerà correttamente.
+Gruppo, sottogruppi e layers possono essere nominati liberamente, si consiglia comunque di nominare i vari elementi in modo appropriato dal momento che sia il nome del gruppo che quello dei sottogruppi e layers compariranno nel CDU finale generato dal plugin, come mostrato nello stralcio nell'immagine sotto dove in rosso è indicato il nome del Gruppo, in blu il nome del sottogruppo e in verde il nome del layer.
 
+.. image:: img/subg_layer.png
 
 .. _graphical-user-interface:
 
