@@ -62,15 +62,26 @@ Ad esempio le righe sotto verranno stampate come mostrato nell'immagine seguente
 
 .. _graphical-user-interface:
 
-Graphical User Interface
+L'Interfaccia Grafica
 --------------------------------------------
-
+Tutti parametri in input possono essere specificati dall’utente attraverso l’interfaccia grafica del Plugin **CDU Creator** che si apre cliccando sull’icona del plugin nella toolbar.
 
 .. image:: img/gui2.png
 
-* **1 - 
-* **2 - 
-* **3 - 
+* **1 - Seleziona il Foglio:**
+* **2 - Seleziona la Particella:**
+* **3 - Seleziona il Gruppo:**
+* **4 - Seleziona la cartella:**
+* **5 - Titolo:**
+* **6 - Nome Comune:**
+* **7 - Seleziona il Logo:**
+* **8 - Seleziona intestazione:**
+* **9 - Stampa i valori delle aree intersecate:**
+* **10 - Messaggi di Log:** tutti i messaggi di warning o di errore così come i messaggi informativi sull'andamento del processo compariranno in questa area.
+* **11 - Pulisci Log:** il bottone pulisce l’area dei messaggi di Log rimuovendo eventuali messaggi di processi precedenti.
+* **12 - Guida:** il bottone apre questo manuale in un web browser.
+* **13 - OK:** il bottone lancia il processo. Come già detto, se il plugin restituisce un messaggio di errore il processo viene bloccato e l’utente potrà inserire o modificare i parametri in input, premendo nuovamente il bottone OK il processo verrà rilanciato.
+* **14 - Chiudi:** il bottone chiude l’interfaccia grafica del plugin e i parametri in input numero foglio, numero particella e gruppo sono riinizializzati.
 
 
 Example
