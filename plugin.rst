@@ -97,7 +97,7 @@ Tutti parametri in input possono essere specificati dall’utente attraverso l�
 * **15 - Chiudi:** il bottone chiude l’interfaccia grafica del plugin e i parametri in input numero foglio, numero particella e gruppo sono riinizializzati.
 
 
-Example
+Esempio
 --------------------------------------------
 
 
