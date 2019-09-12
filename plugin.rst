@@ -78,7 +78,7 @@ Tutti parametri in input possono essere specificati dall’utente attraverso l�
 
 **NB.** a seconda della dimensione e del numero di geometrie del layer *terreni_catastali*, l'avvio dell'interfaccia grafica del Plugin CDU Creator potrebbe richiedere qualche istante in più del normale.
 
-.. image:: img/gui3.png
+.. image:: img/gui4.png
 
 * **1 - Sezione:** il menù a tendina elenca tutti i valori univoci presenti nella colonna *sezione*. Da qui è possibile selezionare il valore della sezione relativo alla particella per cui si vuole compilare il CDU. No è obbligatorio selezionare la sezione soprattutto se il proprio catasto non è suddiviso in sezioni e quindi la colonna è vuota o comunemente riempita con un trattino '-'. Se presenti nella colonna, sia il valore NULL che l'eventuale '-' compariranno nel menù a tendina ma, come già detto non è necessario selezionarli. Il plugin infatti gestirà autonomamente il valore della sezione se non selezionato tramite il menù a tendina. 
 * **2 - Foglio:** il menù a tendina elenca tutti i valori univoci presenti nella colonna *foglio*. Qualora fosse stata precedentemente selezionata una sezione, il menù elencherà tutti i valori univoci della colonna foglio filtrati per il valore di sezione selezionato. Da qui è quindi possibile selezionare il numero di foglio relativo alla particella di cui si vuole compilare il CDU. La selezione del foglio è obbligatoria per poter abilitare il menù a tendina della particella, se non viene selezionato un numero di foglio infatti il menù particella sarà disabilitato.
