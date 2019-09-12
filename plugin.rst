@@ -76,6 +76,8 @@ L'Interfaccia Grafica
 --------------------------------------------
 Tutti parametri in input possono essere specificati dall’utente attraverso l’interfaccia grafica del Plugin **CDU Creator** che si apre cliccando sull’icona del plugin nella toolbar.
 
+**NB.** a seconda della dimensione e del numero di geometrie del layer *terreni_catastali*, l'avvio dell'interfaccia grafica del Plugin CDU Creator potrebbe richiedere qualche istante in più del normale.
+
 .. image:: img/gui2.png
 
 * **1 - Sezione:**
