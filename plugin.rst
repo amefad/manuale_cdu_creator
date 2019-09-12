@@ -57,6 +57,7 @@ All'interno delle colonne il testo può essere formattato come HTML quindi serve
 Ad esempio le righe sotto verranno stampate come mostrato nell'immagine seguente
 
 .. code-block:: html
+
   <b><a href="https://www.gter.it/">art. 13</a></b> - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor vitae purus faucibus ornare suspendisse sed nisi lacus.
 
 .. image:: img/html.png
