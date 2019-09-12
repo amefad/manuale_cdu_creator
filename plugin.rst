@@ -62,7 +62,7 @@ Come già anticipato nell'introduzione di questo manuale, nel CDU vengono stampa
 
 All'interno delle colonne il testo può essere formattato come HTML quindi servendosi dei vari <tag> html per dare particolari effetti al testo (es. bold, italic, ecc.), per impaginare il testo con a capo, elenchi ecc. ed eventualmente per aggiungere link a pagine web nel testo. In particolar modo la possibilità di formattare il testo come HTML può essere molto utile soprattutto per rendere più facilmente leggibile il contenuto della colonna *articolo*. Qui infatti può essere inserito l'intero testo dell'articolo di riferimento della normativa (attenzione al limite di caratteri possibili soprattutto nel caso in cui vengano usati degli Shapefile) oppure, qualora la normativa fosse disponibile su una pagina web, inserire tramite l'utilizzo di HTML un link alla pagina puntando direttamente al testo dell'articolo. Il link verrà ovviamente stampato nel file pdf del CDU e da lì sarà possibile cliccare e essere automaticamente reindirizzati alla pagine web della normativa.
 
-Ad esempio le righe sotto verranno stampate come mostrato nell'immagine seguente
+Ad esempio le riga di codice html sotto verrà stampata come mostrato nell'immagine seguente
 
 .. code-block:: html
 
