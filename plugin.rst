@@ -122,3 +122,7 @@ Una volta definiti i vari parametri in input, premendo il tasto OK il processo s
 Una volta terminato il processo, l'area di mappa viene automaticamente zoommata sulla particella selezionata. In questo caso ad esempio, il Plugin restituisce due messaggi di warning che comunicano all'utente che la colonna +descrizione* non è stata trovata in un certo layer dello strumento urbanistico e la colonna *nome* non è stata trovata in un altro layer dello strumento urbanistico.
 
 Se il processo va a buon fine, comparirà la scritta **PROCESSO TERMINATO** preceduta da un messaggio che dice all'utente in quale cartella è stato salvato il CDU e il nome del file.
+
+.. image:: img/cdu.png
+
+L'output finale è un file PDF (eventualmente multipagina a seconda del contenuto da stampare)
