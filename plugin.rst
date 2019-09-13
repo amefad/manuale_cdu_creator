@@ -125,4 +125,6 @@ Se il processo va a buon fine, comparirà la scritta **PROCESSO TERMINATO** prec
 
 .. image:: img/cdu.png
 
-L'output finale è un file PDF (eventualmente multipagina a seconda del contenuto da stampare)
+L'output finale è un file PDF (eventualmente multipagina a seconda del contenuto da stampare) contenete tutte le informazioni estratte dai layers dello strumento urbanistico e tutte le personalizzazioni e parametri (titolo, nome comune, logo, intestazioni ecc.) definiti dall'utente.
+
+**NB.** Come già detto, il Plugin **CDU Creator** funziona per singola particella, qualora si volesse compilare il CDU per più particelle si deve lanciare il plugin per ogni singola particella semplicemente modificando la selezione tramite gli strumenti di selezione di QGIS o tramite i menù a tendina dell'interfaccia grafica.
