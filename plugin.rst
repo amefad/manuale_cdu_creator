@@ -100,5 +100,15 @@ Tutti parametri in input possono essere specificati dall’utente attraverso l�
 
 Esempio
 --------------------------------------------
+Una volta organizzati i dati seguendo le indicazioni riportate nel paragrafo :ref:`preparazione-dati` è possibile utilizzare il **Plugin CDU Creator**. Ricapitolando, i requisiti necessari che i dati (terreni catastali e strumento urbanistico) devono avere per il corretto funzionamento del plugin sono:
+
+* layer delle particelle catastali nominato **terreni_catastali**;
+* il layer *terreni_catastali* deve avere tre colonne rispettivamente nominate **sezione, foglio, mappale**;
+* le tre colonne nel layer *terreni_catastali* **sono obbligatorie**;
+* i layers dello strumento urbanistico devono essere inseriti in un **gruppo** e eventualmente organizzati in sottogruppi;
+* le informazioni che relative ai layers dello strumento urbanistico devono essere inserite in quattro colonne della relativa tabella degli attributi rispettivamente nominate **nome, descrizione, riferimento legislativo, articolo**;
+* le quattro colonne nei layers dello strumento urbanistico **NON sono obbligatorie**.
+
+
 
 
