@@ -109,6 +109,16 @@ Una volta organizzati i dati seguendo le indicazioni riportate nel paragrafo :re
 * le informazioni che relative ai layers dello strumento urbanistico devono essere inserite in quattro colonne della relativa tabella degli attributi rispettivamente nominate **nome, descrizione, riferimento legislativo, articolo**;
 * le quattro colonne nei layers dello strumento urbanistico **NON sono obbligatorie**.
 
+Impostare quindi i vari parametri in input dall'interfaccia grafica del Plugin **CDU Creator**.
 
+.. image:: img/esempio.png
 
+Come già detto, la particella per cui si vuole compilare il CDU può essere selezionata con gli strumenti di selezione di QGIS oppure servendosi dei menù a tendina dell'interfaccia grafica. In questo caso la particella è stata selezionata tramite i menù a tendina dell'interfaccia grafica. Essendo il catasto utilizzato come test suddiviso in sezioni, è stata appunto anche selezionata la sezione per evitare di incorrere in un messaggio di warning che avvisa appunto l'utente che sono state trovate più particelle con stesso numero di foglio e mappale. Se il dati catastali di test non fossero stati suddivisi in sezioni, sarebbe stato sufficiente selezionare solo il foglio e il mappale.
 
+Una volta definiti i vari parametri in input, premendo il tasto OK il processo sarà avviato, eventuali messaggi di warning o informativi verranno stampati nell'area di Log, in caso di problematiche che compromettono la corretta compilazione del CDU, il processo si interrompe restituendo un messaggio che descrive la problematica riscontrata.
+
+.. image:: img/fine_processo.png
+
+Una volta terminato il processo, l'area di mappa viene automaticamente zoommata sulla particella selezionata. In questo caso ad esempio, il Plugin restituisce due messaggi di warning che comunicano all'utente che la colonna +descrizione* non è stata trovata in un certo layer dello strumento urbanistico e la colonna *nome* non è stata trovata in un altro layer dello strumento urbanistico.
+
+Se il processo va a buon fine, comparirà la scritta **PROCESSO TERMINATO** preceduta da un messaggio che dice all'utente in quale cartella è stato salvato il CDU e il nome del file.
