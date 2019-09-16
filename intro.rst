@@ -15,7 +15,7 @@ Sia il Plugin che il manuale sono distribuiti con licenza Creative Commons Attri
 
 Scopo
 ------------------------------------------
-E' noto che una delle esigenze più diffuse, fra gli oltre 9200 Comuni italiani, è la realizzazione dei Certificati di Destinazione Urbanistica (CDU).
+E’ noto che una delle esigenze più diffuse, fra gli oltre 9200 Comuni italiani, è la realizzazione dei Certificati di Destinazione Urbanistica (CDU).
 
 Sono disponibili molte soluzioni online che però comportano spesso un costo che non tutti i Comuni possono affrontare. Inoltre i dati catastali non sempre sono pronti all'uso, necessitano di continui aggiornamenti e possono richiedere un affinamento delle comuni trasformazioni ottenute con i punti fiduciali al fine di ottenere la corretta georeferenziazione dei dati stessi.
 
