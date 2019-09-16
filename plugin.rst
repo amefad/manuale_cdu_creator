@@ -21,6 +21,8 @@ Il pdf finale del CDU sarà quindi salvato nella cartella indicata dall'utente e
 * **CDU_S_xxxx_Fyyy_Mzzz_ggmmaaaa_hhmmss.pdf** - verranno indicati il valore della sezione, il numero del foglio e del mappale selezionato e la data e l'ora di creazione del file. 
 * **CDU_Fxxx_Myyy_ggmmaaaa_hhmmss.pdf** - verranno indicati il numero del foglio e del mappale selezionato e la data e l'ora di creazione del file. 
 
+**ATTENZIONE: il Plugin CDU Creator non risolve le problematiche relative alla corretta georeferenziazione del catasto.** Eventuali aggiustamenti sulla posizione delle singole particelle, affinchè siano georiferite in modo corretto e coerenti con i layers dello strumento urbanistico, possono e devono essere fatti a priori servendosi degli strumenti di QGIS. 
+
 .. _preparazione-dati:
 
 Preparazione dei Dati
