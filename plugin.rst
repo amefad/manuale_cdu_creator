@@ -35,7 +35,7 @@ In generale, sia il layer dei terreni catastali sia i layers dello strumento urb
 
 **NB:** il layer terreni_catastali e i layers dello strumento urbanistico possono avere sistemi di riferimento diversi.
 
-**ATTENZIONE:** al momento nel caso in cui i layers dello strumento urbanistico avessere un sistema di riferimento non proiettato, il calcolo dell'area restituirà il valore in gradi quindi, la stampa del valore dell'area sul file CDU non risulterà corretto.
+**ATTENZIONE:** al momento, nel caso in cui i layers dello strumento urbanistico avessero un sistema di riferimento non proiettato, il calcolo dell'area restituirà il valore in gradi quindi, la stampa del valore dell'area sul file CDU non risulterà corretto.
 
 
 Layer Terreni Catastali
