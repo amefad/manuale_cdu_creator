@@ -145,12 +145,10 @@ L'output finale è un file PDF (eventualmente multipagina a seconda del contenut
 
 **NB.** Come già detto, il Plugin **CDU Creator** funziona per singola particella, qualora si volesse compilare il CDU per più particelle si deve lanciare il plugin per ogni singola particella semplicemente modificando la selezione tramite gli strumenti di selezione di QGIS o tramite i menù a tendina dell'interfaccia grafica.
 
-Di seguito il video tutorial realizzato da **Salvatore Fiandaca** (https://pigrecoinfinito.wordpress.com/) sull'utilizzo del Plugin CDU Creator
+Di seguito il video tutorial realizzato da **Salvatore Fiandaca** (https://pigrecoinfinito.wordpress.com/) sull'utilizzo del Plugin CDU Creator:
 
 .. raw:: html
 
     <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
         <video controls src="_static/CDU_finale.mp4" style="max-width: 100%;"></video>
     </div>
-
-   
