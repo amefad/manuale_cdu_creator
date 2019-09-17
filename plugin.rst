@@ -151,6 +151,6 @@ Di seguito il video tutorial realizzato da **Salvatore Fiandaca** (https://pigre
 
 .. raw:: html
 
-    <div style="position: relative; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+    <div style="position: relative; padding-bottom: 20.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
         <video controls src="_static/CDU_finale.mp4" style="max-width: 100%;"></video>
     </div>
