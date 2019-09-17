@@ -149,4 +149,8 @@ Di seguito il video tutorial realizzato da **Salvatore Fiandaca** sull'utilizzo 
 
 .. raw:: html
 
-   <video controls src="_static/CDU_finale.mp4"></video>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+        <video controls src="_static/CDU_finale.mp4"></video>
+</div>
+
+   
