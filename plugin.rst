@@ -125,6 +125,8 @@ Una volta organizzati i dati seguendo le indicazioni riportate nel paragrafo :re
 * le informazioni relative ai layers dello strumento urbanistico devono essere inserite in quattro colonne della relativa tabella degli attributi rispettivamente nominate **nome, descrizione, riferimento legislativo, articolo**;
 * le quattro colonne nei layers dello strumento urbanistico **NON sono obbligatorie**.
 
+**NB.** Il dataset di esempio, già pronto per l'utilizzo del plugin, è stato realizzato da **Salvatore Fiandaca** (https://pigrecoinfinito.wordpress.com/) ed è disponibile qui :download:`pdf <dati/dati_test_CDU.zip>`
+
 Impostare quindi i vari parametri in input dall'interfaccia grafica del Plugin **CDU Creator**.
 
 .. image:: img/esempio_gui.png
