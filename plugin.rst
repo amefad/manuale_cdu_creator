@@ -126,6 +126,7 @@ Una volta organizzati i dati seguendo le indicazioni riportate nel paragrafo :re
 * le quattro colonne nei layers dello strumento urbanistico **NON sono obbligatorie**.
 
 **NB.** Il dataset di esempio, già pronto per l'utilizzo del plugin, è stato realizzato da **Salvatore Fiandaca** (https://pigrecoinfinito.wordpress.com/) ed è disponibile qui :download:`zip <dati/dati_test_CDU.zip>`
+Il dataset è stato creato usando parte dei dati presenti nel plugin **CXF_in** (https://github.com/saccon/CXF_in) di **Fabio Saccon**.
 
 Impostare quindi i vari parametri in input dall'interfaccia grafica del Plugin **CDU Creator**.
 
