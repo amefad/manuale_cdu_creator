@@ -27,7 +27,7 @@ Il **Plugin CDU Creator** genera un file .pdf contenete tutte le informazioni ne
 
 L'output finale è un file .pdf contente il CDU generato automaticamente e personalizzato in base ai parametri definiti tramite l'interfaccia grafica dall'utente. Il CDU conterrà quindi, non solo le informazione relative alle aree dello strumento urbanistico interessate ma anche la mappa con la visualizzazione della particella selezionata, titolo e logo del Comune definiti dall'utente e, se indicata, anche un paragrafo di introduzione al documento contenete eventuali riferimenti normativi, diciture o altro che devono essere indicati nel CDU per renderlo valido a tutti gli effetti.
 
-**NB.** Il dataset di esempio, già pronto per l'utilizzo del plugin, è stato realizzato da **Salvatore Fiandaca** (https://pigrecoinfinito.wordpress.com/) ed è disponibile qui :download:`zip <dati/dati_test_CDU.zip>`
+**NB.** Il dataset di esempio, già pronto per l'utilizzo del plugin, è stato realizzato da **Salvatore Fiandaca** (https://pigrecoinfinito.wordpress.com/) ed è scaricabile qui :download:`zip <dati/dati_test_CDU.zip>`.
 Il dataset è stato creato usando parte dei dati presenti nel plugin **CXF_in** (https://github.com/saccon/CXF_in) di **Fabio Saccon**.
 
 
