@@ -109,7 +109,6 @@ Tutti parametri in input possono essere specificati dall’utente attraverso l�
 * **15 - Stampa i valori delle aree intersecate:** il plugin calcola l'area (|m2|) di intersezione fra le singole geometrie di ogni layer dello strumento urbanistico che si intersecano con la particella selezionata. Spuntando la checkbox, l'area verrà quindi stampata nel CDU insieme alle altre informazioni relative allo strumento urbanistico (nome, descrizione, riferimento legislativo, articolo), altrimenti non comparirà.
 
 .. |m2| replace:: m\ :sup:`2`\
-
 * **16 - Messaggi di Log:** tutti i messaggi di warning o di errore così come i messaggi informativi sull'andamento del processo compariranno in questa area.
 * **17 - Pulisci Log:** il bottone pulisce l’area dei messaggi di Log rimuovendo eventuali messaggi di processi precedenti.
 * **18 - Guida:** il bottone apre questo manuale in un web browser.
