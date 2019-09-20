@@ -51,6 +51,8 @@ Il layer *terreni_catastali* deve necessariamente contenere nella relativa tabel
 
 La colonna contenente il valore della sezione catastale, se presente, deve avere **nome o alias** = **sezione** (sia il nome che l'alias sono case insensitive ovvero non influenzati dall'uso di lettere maiuscole/minuscole --> è possibile scrivere sezione, SEZIONE, Sezione, SeZiOnE, ecc.). La colonna contenente il numero di foglio catastale deve avere **nome o alias** = **foglio** (sia il nome che l'alias sono case insensitive ovvero non influenzati dall'uso di lettere maiuscole/minuscole --> è possibile scrivere foglio, FOGLIO, Foglio, fOgLiO, ecc.). La colonna contenente il numero di mappale deve avere **nome o alias** = **mappale** (anche in questo caso, sia il nome che l'alias sono case insensitive ovvero non influenzati dall'uso di lettere maiuscole/minuscole --> è possibile scrivere mappale, MAPPALE, Mappale, MaPpAlE, ecc.).
 
+**ATTENZIONE:** in caso si utilizzino file in formato **ESRIShapefile** si ricorda che questo formato ha delle limitazioni sia nel numero di caratteri per il nome delle colonne (massimo 10 caratteri). Per questo motivo è stata introdotta la possibilità utilizzare gli alias invece che rinominare la colonna, con l'alias infatti è possibile utilizzare nomi più lunghi di 10 caratteri. Per vedere come aggiungere l'alias al nome della colonna si rimanda alla documentazione di QGIS al link https://docs.qgis.org/3.4/it/docs/user_manual/working_with_vector/vector_properties.html#configure-the-field-behavior .
+
 Gruppo Layers Strumento Urbanistico
 ++++++++++++++++++++++++++++
 Per quanto riguarda i layers che compongono lo strumento urbanistico, questi devono essere organizzati in gruppi e sottogruppi a seconda della complessità dello strumento stesso. Ad esempio, il PRG di un piccolo Comune composto da pochi layers può essere facilmente organizzato in un soingolo gruppo, mentre il PUC di un grande Comune potrebbe essere organizzato appunto in un gruppo suddiviso in sottogruppi come mostrato nell'immagine sotto.
@@ -84,6 +86,8 @@ Ad esempio le riga di codice html sotto verrà stampata come mostrato nell'immag
   <b><a href="https://www.gter.it/">art. 13</a></b> - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor vitae purus faucibus ornare suspendisse sed nisi lacus.
 
 .. image:: img/html.png
+
+**ATTENZIONE:** in caso si utilizzino file in formato **ESRIShapefile** si ricorda che questo formato ha delle limitazioni sia nel numero di caratteri per il nome delle colonne (massimo 10 caratteri), sia nel numero di caratteri per i valori dei campi testuali (massimo 255 caratteri). Per questo motivo è stata introdotta la possibilità utilizzare gli alias invece che rinominare la colonna, con l'alias infatti è possibile utilizzare nomi più lunghi di 10 caratteri. Per vedere come aggiungere l'alias al nome della colonna si rimanda alla documentazione di QGIS al link https://docs.qgis.org/3.4/it/docs/user_manual/working_with_vector/vector_properties.html#configure-the-field-behavior . Per quanto riguarda invece il limite di caratteri per il contenuto delle celle (massimo 255 caratteri in caso di file in formato ESRI Shapefile), si consiglia di utilizzare altri formati vettoriali (es. GeoPackage).
 
 .. _graphical-user-interface:
 
