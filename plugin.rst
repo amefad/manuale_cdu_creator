@@ -23,7 +23,10 @@ Il pdf finale del CDU e l'eventuale odt, saranno quindi salvati nella cartella i
 * **CDU_S_xxxx_Fyyy_Mzzz_ggmmaaaa_hhmmss.pdf** - verranno indicati il valore della sezione, il numero del foglio e del mappale selezionato e la data e l'ora di creazione del file. 
 * **CDU_Fxxx_Myyy_ggmmaaaa_hhmmss.pdf** - verranno indicati il numero del foglio e del mappale selezionato e la data e l'ora di creazione del file. 
 
-**ATTENZIONE: il Plugin CDU Creator non risolve le problematiche relative alla corretta georeferenziazione del catasto.** Eventuali aggiustamenti sulla posizione delle singole particelle, affinchè siano georiferite in modo corretto e coerenti con i layers dello strumento urbanistico, possono e devono essere fatti a priori servendosi degli strumenti di QGIS. 
+**ATTENZIONE: il Plugin CDU Creator non risolve le problematiche relative alla corretta georeferenziazione del catasto.** Eventuali aggiustamenti sulla posizione delle singole particelle, affinchè siano georiferite in modo corretto e coerenti con i layers dello strumento urbanistico, possono e devono essere fatti a priori servendosi degli strumenti di QGIS.
+
+**ATTENZIONE: Il Plugin CDU Creator non gestisce l'aggiornamento dei dati catastali.** In caso di dubbi sull'aggiornamento dei propri dati è ovviamente possibile consultare con QGIS il servizio WMS del catasto fornito dall'Agenzia delle Entrate con licenza CC-BY-NC-ND 4.0, reperibile a questa URL https://wms.cartografia.agenziaentrate.gov.it/inspire/wms/ows01.php .
+Ovviamente il servizio WMS non può essere utilizzato al posto del layer *terreni_catastali*, ma può essere confrontato con i propri dati delle particelle catastali, verificare quindi se sono aggiornati ed eventualmente richiedere i nuovi dati.
 
 .. _preparazione-dati:
 
