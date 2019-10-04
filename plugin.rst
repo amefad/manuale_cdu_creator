@@ -169,3 +169,4 @@ Di seguito il video tutorial realizzato da **Salvatore Fiandaca** (https://pigre
     </div>
 
 .. |m2| replace:: m\ :sup:`2`\
+.. **|m2|** replace:: m\ :sup:`2`\
