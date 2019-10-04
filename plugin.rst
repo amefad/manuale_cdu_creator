@@ -28,6 +28,10 @@ Il pdf finale del CDU e l'eventuale odt, saranno quindi salvati nella cartella i
 **ATTENZIONE: Il Plugin CDU Creator non gestisce l'aggiornamento dei dati catastali.** In caso di dubbi sull'aggiornamento dei propri dati è ovviamente possibile consultare con QGIS il servizio WMS del catasto fornito dall'Agenzia delle Entrate con licenza CC-BY-NC-ND 4.0, reperibile a questa URL https://wms.cartografia.agenziaentrate.gov.it/inspire/wms/ows01.php .
 Ovviamente il servizio WMS non può essere utilizzato al posto del layer *terreni_catastali*, ma può essere confrontato con i propri dati delle particelle catastali, verificare quindi se sono aggiornati ed eventualmente richiedere i nuovi dati.
 
+**ATTENZIONE: se QGIS restituisce un errore in fase di installazione del Plugin simile a quello mostrato nella figura sotto, il problema è dovuto all'installazione di QGIS. In particolare, se QGIS è stato installato da OSGeo4W Network Installer e non è stata selezionata la versione qgis-full o qgis-ltr-full possono mancare alcune dipendenze python necessarie per questo plugin e anche per altri. In questo caso è necessario riaprire l'installer e selezionare il pacchetto qgis-full o qgis-ltr-full.**
+
+.. image:: img/error.png
+
 .. _preparazione-dati:
 
 Preparazione dei Dati
