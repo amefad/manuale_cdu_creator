@@ -38,21 +38,21 @@ Il Plugin **CDU Creator** è stato approvato da parte del Team di QGIS, pertanto
 
 * Installazione di QGIS su macOS. L'installer per macOS non installa automaticamente alcune dipendenze python necessarie per questo plugin e anche per altri. **In particolare non viene installata la libreria python-pillow che deve essere quindi installata separatamente seguendo le istruzioni riportate sotto.** Le istruzioni per l'installazione della libreria python-pillow sono state gentilmente fornite e condivise da **Ivano Giuliano.**
 
-1. Disinstallare il plugin CDU Creator da QGIS e chiudere QGIS.
+  1. Disinstallare il plugin CDU Creator da QGIS e chiudere QGIS.
 
-2. Da terminale e nelle vesti di (superuser sudo) procedere con l'installazione
+  2. Da terminale e nelle vesti di (superuser sudo) procedere con l'installazione
 
-3. Installare python-pillow digitando sul terminale **sudo pip install pillow**
+  3. Installare python-pillow digitando sul terminale **sudo pip install pillow**
 
-4. Lanciare python 3 digitando sul terminale **python3**
+  4. Lanciare python 3 digitando sul terminale **python3**
 
-5. Importare la libreria digitando sul terminale **import PIL**
+  5. Importare la libreria digitando sul terminale **import PIL**
 
-6. Chiudere python 3 digitando sul terminale **quit()**
+  6. Chiudere python 3 digitando sul terminale **quit()**
 
-7. Avviare QGIS
+  7. Avviare QGIS
 
-8. Installare il plugin CDU Creator
+  8. Installare il plugin CDU Creator
 
 
 .. image:: img/error.png
