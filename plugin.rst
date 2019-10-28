@@ -32,7 +32,36 @@ Installazione
 --------------------------------------------
 Il Plugin **CDU Creator** è stato approvato da parte del Team di QGIS, pertanto è disponibile dalla repository ufficiale di QGIS e può essere installato con la procedura standard per l’installazione dei Plugin di QGIS. Da menù Plugins –> Gestisci e installa Plugin –> Non Installati. Digitando anche solo parte del nome del plugin nel form di ricerca, è possibile selezionare il plugin dall’elenco e premendo su Installa plugin si procede all’installazione.
 
-**ATTENZIONE: se QGIS restituisce un errore in fase di installazione del Plugin simile a quello mostrato nella figura sotto, il problema è dovuto all'installazione di QGIS. In particolare, se QGIS è stato installato da OSGeo4W Network Installer e non è stata selezionata la versione qgis-full o qgis-ltr-full possono mancare alcune dipendenze python necessarie per questo plugin e anche per altri. In questo caso è necessario riaprire l'installer e selezionare il pacchetto qgis-full o qgis-ltr-full.**
+**ATTENZIONE!!** Se QGIS restituisce un errore in fase di installazione del Plugin simile a quello mostrato nella figura sotto, il problema è dovuto all'installazione di QGIS. Questo errore può essere dovuto a:
+
+* QGIS è stato installato da *OSGeo4W Network Installer* e non è stata selezionata la versione *qgis-full o qgis-ltr-full*, possono quindi mancare alcune dipendenze python necessarie per questo plugin e anche per altri. **In questo caso è necessario riaprire l'installer e selezionare il pacchetto qgis-full o qgis-ltr-full.**
+
+* Installazione di QGIS su macOS. L'installer per macOS non installa automaticamente alcune dipendenze python necessarie per questo plugin e anche per altri. **In particolare non viene installata la libreria python-pillow che deve essere quindi installata separatamente seguendo le istruzioni riportate sotto.** Le istruzioni per l'installazione della libreria python-pillow sono state gentilmente fornite e condivise da **Ivano Giuliano.**
+
+
+<1>
+Disinstallare il plugin CDU Creator da QGIS e chiudere QGIS.
+
+<2>
+Da terminale e nelle vesti di (superuser sudo) procedere con l'installazione:
+
+# Installare di pillow digitando sul terminale
+sudo pip3 install pillow
+
+------   attendere il completamento... 
+
+# lanciare python 3 digitando sul terminale
+ python3
+
+# importare la libreria digitando sul terminale
+>>> import PIL
+>>> quit()
+
+<3>
+Lanciare QGIS3
+Installare il plugin CDU Creator
+
+
 
 .. image:: img/error.png
 
