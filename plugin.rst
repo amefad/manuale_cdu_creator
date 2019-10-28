@@ -36,7 +36,7 @@ Il Plugin **CDU Creator** è stato approvato da parte del Team di QGIS, pertanto
 
 * QGIS è stato installato da *OSGeo4W Network Installer* e non è stata selezionata la versione *qgis-full o qgis-ltr-full*, possono quindi mancare alcune dipendenze python necessarie per questo plugin e anche per altri. **In questo caso è necessario riaprire l'installer e selezionare il pacchetto qgis-full o qgis-ltr-full.**
 
-* Installazione di QGIS su macOS. L'installer per macOS non installa automaticamente alcune dipendenze python necessarie per questo plugin e anche per altri. **In particolare non viene installata la libreria python-pillow che deve essere quindi installata separatamente seguendo le istruzioni riportate sotto.** Le istruzioni per l'installazione della libreria python-pillow sono state gentilmente fornite e condivise da **Ivano Giuliano.**
+* Installazione di QGIS su macOS. L'installer per macOS non installa automaticamente alcune dipendenze python necessarie per questo plugin e anche per altri. **In particolare non viene installata la libreria python-pillow che deve essere quindi installata separatamente seguendo le istruzioni riportate sotto:**
 
   1. Disinstallare il plugin CDU Creator da QGIS e chiudere QGIS.
 
@@ -54,6 +54,7 @@ Il Plugin **CDU Creator** è stato approvato da parte del Team di QGIS, pertanto
 
   8. Installare il plugin CDU Creator
 
+Le istruzioni per l'installazione della libreria python-pillow sono state gentilmente fornite e condivise da **Ivano Giuliano.**
 
 .. image:: img/error.png
 
