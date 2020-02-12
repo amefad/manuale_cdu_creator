@@ -66,6 +66,8 @@ Per il corretto funzionamento del Plugin **CDU Creator** è ncessario preparare 
 
 In generale, sia il layer dei terreni catastali sia i layers dello strumento urbanistico devono essere layer vettoriali poligonali (shapefile, GeoPackage, tabella PostGIS, ecc.). Il primo deve essere necessariamente nominato **terreni_catastali** altrimenti il plugin restituirà un messaggio di errore all'avvio segnalando appunto la mancanza di un layer nominato *terreni_catastali* all'interno del progetto QGIS. I layers dello strumento urbanistico invece, devono essere necessariamente inseriti all'interno di un gruppo nel quale NON deve essere inserito invece il layer *terreni_catastali*.
 
+.. image:: img/import_layer.gif
+
 **NB:** il layer terreni_catastali e i layers dello strumento urbanistico possono avere sistemi di riferimento diversi.
 
 **ATTENZIONE:** al momento, nel caso in cui i layers dello strumento urbanistico avessero un sistema di riferimento non proiettato, il calcolo dell'area restituirà il valore in gradi quindi, la stampa del valore dell'area sul file CDU non risulterà corretto.
