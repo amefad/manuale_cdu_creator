@@ -18,7 +18,7 @@ Gli input obbligatori del Plugin **CDU Creator** sono:
 
 .. _nomenclatura:
 
-Il pdf finale del CDU e l'eventuale odt, saranno quindi salvati nella cartella indicata dall'utente e sarnno nominati con il nome file indicato dall'utente tramite l'interfaccia grafica del plugin. Se non venisse indicato un nome per il file pdf/odt del CDU, questi verranno automaticamente nominati con una delle seguenti nomenclature a seconda che sia stato definito nell'interfaccia grafica o comunque nella tabella degli attributi del layer terreni_catastali un valore per la sezione:
+Il pdf finale del CDU e l'eventuale odt, saranno quindi salvati nella cartella indicata dall'utente e saranno nominati con il nome file indicato dall'utente tramite l'interfaccia grafica del plugin. Se non venisse indicato un nome per il file pdf/odt del CDU, questi verranno automaticamente nominati con una delle seguenti nomenclature a seconda che sia stato definito nell'interfaccia grafica o comunque nella tabella degli attributi del layer terreni_catastali un valore per la sezione:
 
 * **CDU_S_xxxx_Fyyy_Mzzz_ggmmaaaa_hhmmss.pdf** - verranno indicati il valore della sezione, il numero del foglio e del mappale selezionato e la data e l'ora di creazione del file. 
 * **CDU_Fxxx_Myyy_ggmmaaaa_hhmmss.pdf** - verranno indicati il numero del foglio e del mappale selezionato e la data e l'ora di creazione del file. 
