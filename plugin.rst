@@ -85,13 +85,15 @@ La colonna contenente il valore della sezione catastale, se presente, deve avere
 
 **ATTENZIONE:** in caso si utilizzino file in formato **ESRIShapefile** si ricorda che questo formato ha delle limitazioni sia nel numero di caratteri per il **nome delle colonne (massimo 10 caratteri)**. Per questo motivo è stata introdotta la possibilità utilizzare gli **alias** invece che rinominare la colonna, con l'alias infatti è possibile utilizzare nomi più lunghi di 10 caratteri. Per vedere come aggiungere l'alias al nome della colonna si rimanda alla documentazione di QGIS al link https://docs.qgis.org/3.4/it/docs/user_manual/working_with_vector/vector_properties.html#configure-the-field-behavior .
 
+.. image:: img/terreni_catastali.gif
+
 Gruppo Layers Strumento Urbanistico
 ++++++++++++++++++++++++++++
 Per quanto riguarda i layers che compongono lo strumento urbanistico, questi devono essere organizzati in gruppi e sottogruppi a seconda della complessità dello strumento stesso. Ad esempio, il PRG di un piccolo Comune composto da pochi layers può essere facilmente organizzato in un soingolo gruppo, mentre il PUC di un grande Comune potrebbe essere organizzato appunto in un gruppo suddiviso in sottogruppi come mostrato nell'immagine sotto.
 
 .. image:: img/layer_tree.png
 
-In ogni caso i layers dello strumento urbanistico devono **necessariamente essere inseriti in un gruppo**, la siddivisione del gruppo in sottogruppi invece è facoltativa.
+In ogni caso i layers dello strumento urbanistico devono **necessariamente essere inseriti in un gruppo**, la suddivisione del gruppo in sottogruppi invece è facoltativa.
 
 Gruppo, sottogruppi e layers possono essere nominati liberamente, si consiglia comunque di nominare i vari elementi in modo appropriato dal momento che sia il nome del gruppo che quello dei sottogruppi e layers compariranno nel CDU finale generato dal plugin, come mostrato nello stralcio nell'immagine sotto dove in rosso è indicato il nome del Gruppo, in blu il nome del sottogruppo e in verde il nome del layer.
 
