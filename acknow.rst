@@ -1,11 +1,6 @@
 Acknowledgement
 ==================
 
-..  _acknow:
-
-Acknowledgement
-------------------------------------------
-
 La funzione di multi selezione delle particelle catastali per la compilazione utomatica del CDU è stata implementata grazie ai forndi raccolti con la campagna di crowdfunding () che si è conclusa con successo il 15 Marzo 2020. La funzione è ora disponibile grazie al contributo di tutti coloro che hanno supportato il progetto. Gter vuole quindi ringraziare tutti i sostenitori del Plugin QGIS CDU Creator, in particolare:
 
 * Il Comune di Torralba (SS) - https://www.comune.torralba.ss.it/
