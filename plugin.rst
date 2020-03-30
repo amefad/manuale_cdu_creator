@@ -6,22 +6,21 @@ Il **Plugin CDU Creator** genera automaticamente il Certificato di Destinazione 
 
 I principali input del Plugin CDU Creator sono i dati dei terreni catastali, che devono essere caricati all'interno di un progetto QGIS come layer vettoriale poligonale, e i dati relativi allo strumento urbanistico vigente anch'essi da caricare nel progetto QGIS come layer vettoriali poligonali. Per il corretto funzionamento del Plugin, il layer dei terreni catastali deve essere obbligatoriamente nominato **terreni_catastali**, mentre i layers dello strumento urbanistico dovranno essere organizzati in gruppi e sottogruppi (n.b. per la corretta organizzazione dei dati al fine di consentire il corretto funzionamento del plugin, si rimanda al paragrafo  :ref:`preparazione-dati`)
 
-Il Plugin compila il CDU per la particella catastale selezionata nel layer **terreni_catastali**. L'utente può selezionare la particella con i comuni strumenti di selezione di QGIS oppure utilizzando l'interfaccia grafica del plugin, selezionando l'eventuale sezione dal menù a tendina, il foglio e quindi il numero della particella dai relativi menù a tendina. Qualora l'utente selezioni una particella con gli strumenti di selezione di QGIS e anche tramite i menù dell'interfaccia grafica, il CDU verrà compilato per la particella selezionata tramite l'interfaccia grafica del plugin. In questo caso comparirà nel area di Log un messaggio di warning in cui si comunica all'utente che era già presente una selezione e che questa verrà sostituita con quella generata dai numeri di foglio e mappale definiti dall'utente tramite interfaccia grafica.
+Il Plugin compila il CDU per le particelle catastali selezionate nel layer **terreni_catastali**. L'utente può selezionare la particelle con i comuni strumenti di selezione di QGIS oppure utilizzando l'interfaccia grafica del plugin, selezionando l'eventuale sezione dal menù a tendina, il foglio e quindi il numero della particella dai relativi menù a tendina e quindi premendo il pulsante *Aggiungi*. Qualora l'utente selezioni una o più particelle con gli strumenti di selezione di QGIS e anche tramite i menù dell'interfaccia grafica, le eventuali particelle selezionate tramite interfaccia verranno aggiunte alla selezione esistente. Per maggiori informazioni sui metodi di selezione dei mappali per cui si vuole compilare il CDU, si rimanda al paragrafo :ref:`selezione-mappali`.
 
-Come già anticipato nell'introduzione di questo manuale, l'output finale del plugin è un file .pdf, e se specificato anche una versione modificabile in formato .odt, contenete le informazioni necessarie per la creazione del CDU. L'utente può ad esempio indicare i dati relativi alla richiesta di compilazione del CDU come il numero di protocollo, la data della richiesta e il nome del richiedente. Il file .pdf può essere inoltre personalizzato aggiungendo ad esempio un titolo, un logo e una sezione testuale semplicemente inserendo il testo che dovrà comparire come titolo, selezionando un file (.png o .jpg) da usare come logo e un file .txt per la sezione testuale. Questi elementi devono essere definiti tramite l'interfaccia grafica (si veda il pragrafo :ref:`graphical-user-interface` per maggiori dettagli). Una volta indicati il titolo, il file del logo e il file della sezione testuale, queste informazioni insieme al percorso alla cartella dove dovrà essere salvato il file del CDU saranno memorizzate e quindi riproposte al successivo avvio del plugin. Qualora si volessero modificare queste impostazioni, sarà sufficente selezionare nuovi file o modificare il titolo o eventualmente rimuoverli e la nuova configurazione sarà riproposta al successivo avvio del plugin.
+Come già anticipato nell'introduzione di questo manuale, l'output finale del plugin è un file .pdf, e se specificato anche una versione modificabile in formato .odt, contenete le informazioni necessarie per la creazione del CDU. L'utente può ad esempio indicare i dati relativi alla richiesta di compilazione del CDU come il numero di protocollo, la data della richiesta e il nome del richiedente. Il file .pdf può essere inoltre personalizzato aggiungendo ad esempio un titolo, un logo e una sezione testuale semplicemente inserendo il testo che dovrà comparire come titolo, selezionando un file (.png o .jpg) da usare come logo e un file .txt per la sezione testuale. Questi elementi devono essere definiti tramite l'interfaccia grafica (si veda il pragrafo :ref:`graphical-user-interface` per maggiori dettagli). Una volta indicati il titolo, il file del logo e il file della sezione testuale queste informazioni, insieme al percorso alla cartella dove dovrà essere salvato il file del CDU, saranno memorizzate e quindi riproposte al successivo avvio del plugin. Qualora si volessero modificare queste impostazioni, sarà sufficente selezionare nuovi file o modificare il titolo o eventualmente rimuoverli e la nuova configurazione sarà riproposta al successivo avvio del plugin.
 
 Gli input obbligatori del Plugin **CDU Creator** sono:
 
-* una particella selezionata nel layer *terreni_catastali*;
+* almeno una particella selezionata nel layer *terreni_catastali*;
 * un gruppo contenente i layers dello strumento urbanistico;
 * il percorso a una cartella di output in cui salvare il file .pdf del CDU
 
 .. _nomenclatura:
 
-Il pdf finale del CDU e l'eventuale odt, saranno quindi salvati nella cartella indicata dall'utente e saranno nominati con il nome file indicato dall'utente tramite l'interfaccia grafica del plugin. Se non venisse indicato un nome per il file pdf/odt del CDU, questi verranno automaticamente nominati con una delle seguenti nomenclature a seconda che sia stato definito nell'interfaccia grafica o comunque nella tabella degli attributi del layer terreni_catastali un valore per la sezione:
+Il pdf finale del CDU e l'eventuale odt, saranno quindi salvati nella cartella indicata dall'utente e saranno nominati con il nome file indicato dall'utente tramite l'interfaccia grafica del plugin. Se non venisse indicato un nome per il file pdf/odt del CDU, questi verranno automaticamente nominati con una la seguente nomenclatura:
 
-* **CDU_S_xxxx_Fyyy_Mzzz_ggmmaaaa_hhmmss.pdf** - verranno indicati il valore della sezione, il numero del foglio e del mappale selezionato e la data e l'ora di creazione del file. 
-* **CDU_Fxxx_Myyy_ggmmaaaa_hhmmss.pdf** - verranno indicati il numero del foglio e del mappale selezionato e la data e l'ora di creazione del file. 
+* **CDU_ggmmaaaa_hhmmss.pdf** - verranno indicati la data e l'ora di creazione del file. 
 
 **ATTENZIONE: il Plugin CDU Creator non risolve le problematiche relative alla corretta georeferenziazione del catasto.** Eventuali aggiustamenti sulla posizione delle singole particelle, affinchè siano georiferite in modo corretto e coerenti con i layers dello strumento urbanistico, possono e devono essere fatti a priori servendosi degli strumenti di QGIS.
 
@@ -54,7 +53,7 @@ Il Plugin **CDU Creator** è stato approvato da parte del Team di QGIS, pertanto
 
   8. Installare il plugin CDU Creator
 
-Le istruzioni per l'installazione della libreria python-pillow sono state gentilmente fornite e condivise da **Ivano Giuliano.**
+Le istruzioni per l'installazione della libreria python-pillow su macOS sono state gentilmente fornite e condivise da **Ivano Giuliano.**
 
 .. image:: img/error.png
 
