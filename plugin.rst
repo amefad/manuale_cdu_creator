@@ -22,9 +22,9 @@ Il pdf finale del CDU e l'eventuale odt, saranno quindi salvati nella cartella i
 
 * **CDU_ggmmaaaa_hhmmss.pdf** - verranno indicati la data e l'ora di creazione del file. 
 
-**ATTENZIONE: il Plugin CDU Creator non risolve le problematiche relative alla corretta georeferenziazione del catasto.** Eventuali aggiustamenti sulla posizione delle singole particelle, affinchè siano georiferite in modo corretto e coerenti con i layers dello strumento urbanistico, possono e devono essere fatti a priori servendosi degli strumenti di QGIS.
+.. warning:: **Il Plugin CDU Creator non risolve le problematiche relative alla corretta georeferenziazione del catasto.** Eventuali aggiustamenti sulla posizione delle singole particelle, affinchè siano georiferite in modo corretto e coerenti con i layers dello strumento urbanistico, possono e devono essere fatti a priori servendosi degli strumenti di QGIS.
 
-**ATTENZIONE: Il Plugin CDU Creator non gestisce l'aggiornamento dei dati catastali.** In caso di dubbi sull'aggiornamento dei propri dati è ovviamente possibile consultare con QGIS il servizio WMS del catasto fornito dall'Agenzia delle Entrate con licenza CC-BY-NC-ND 4.0, reperibile a questa URL https://wms.cartografia.agenziaentrate.gov.it/inspire/wms/ows01.php .
+.. warning:: **Il Plugin CDU Creator non gestisce l'aggiornamento dei dati catastali.** In caso di dubbi sull'aggiornamento dei propri dati è ovviamente possibile consultare con QGIS il servizio WMS del catasto fornito dall'Agenzia delle Entrate con licenza CC-BY-NC-ND 4.0, reperibile a questa URL https://wms.cartografia.agenziaentrate.gov.it/inspire/wms/ows01.php .
 Ovviamente il servizio WMS non può essere utilizzato al posto del layer *terreni_catastali*, ma può essere confrontato con i propri dati delle particelle catastali, verificare quindi se sono aggiornati ed eventualmente richiedere i nuovi dati.
 
 Installazione
@@ -67,16 +67,16 @@ In generale, sia il layer dei terreni catastali sia i layers dello strumento urb
 
 .. image:: img/import_layer.gif
 
-**NB:** il layer terreni_catastali e i layers dello strumento urbanistico possono avere sistemi di riferimento diversi.
+.. note:: Il layer terreni_catastali e i layers dello strumento urbanistico possono avere sistemi di riferimento diversi.
 
-**ATTENZIONE:** al momento, nel caso in cui i layers dello strumento urbanistico avessero un sistema di riferimento non proiettato, il calcolo dell'area restituirà il valore in gradi quindi, la stampa del valore dell'area sul file CDU non risulterà corretto.
+.. warning:: Al momento, nel caso in cui i layers dello strumento urbanistico avessero un sistema di riferimento non proiettato, il calcolo dell'area restituirà il valore in gradi quindi, la stampa del valore dell'area sul file CDU non risulterà corretto.
 
 
 Layer Terreni Catastali
 +++++++++++++++++++++++
 Come già detto, il layer contenente le geometrie poligonali delle particelle catastali deve essere nominato **terreni_catastali** e deve essere caricato nel progetto QGIS senza inserirlo in alcun gruppo di layer. Non è necessario che il file dei terreni sia nominato *terreni_catastali* ma è sufficiente che sia rinominato il layer una volta caricato il file nel progetto QGIS (es. il file catasto.shp genera un layer nominato 'catasto' una volta caricato nel progetto QGIS, rinominando il layer in *terreni_catastali* il plugin funzionerà in modo corretto senza dover modificare il nome del file). 
 
-**NB.** Il layer dei terreni_catastali deve contenere le particella appartenenti a un singolo comune per evitare ambiguità nella selezione della particella tramite l'interfaccia grafica.
+.. note:: Il layer dei terreni_catastali deve contenere le particella appartenenti a un singolo comune per evitare ambiguità nella selezione della particelle soprattutto tramite l'interfaccia grafica. Qualora infatti venissero trovate più particelle con stesso valore di foglio e mappale, il plugin restituirà un messaggio di warning nell'area di Log.
 
 Il layer *terreni_catastali* deve necessariamente contenere nella relativa tabella degli attributi almeno due colonne di **tipo testo**, una in cui deve essere indicato il numero di foglio catastale e una in cui deve essere indicato il numero del mappale delle singole particelle. Se la colonna con i valori di foglio e quella con i valori del mappale sono obbligatorie, una terza colonna (di tipo testo) con il valore della sezione catastale è invece facoltativa. Può quindi essere presente in tabella oppure no. La colonna contenete la sezione, se presente, può eventualmente essere lasciata vuota qualora il catasto non sia suddiviso in sezioni. Se la colonna con nome/alias non viene trovata, il relativo menù a tendina sarà disabilitato e verrà stampato un messaggio informativo nell'area di log per informare l'utente che appunto la colonna sezione non è stata trovata.
 
