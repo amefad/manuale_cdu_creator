@@ -1,6 +1,10 @@
 
 @import url('theme.css');
 
+p {
+    text-align: justify;
+}
+
 .wy-nav-side {
     position: fixed;
 }
