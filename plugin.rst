@@ -92,6 +92,7 @@ Gruppo Layers Strumento Urbanistico
 Per quanto riguarda i layers che compongono lo strumento urbanistico, questi devono essere organizzati in gruppi e sottogruppi a seconda della complessità dello strumento stesso. Ad esempio, il PRG di un piccolo Comune composto da pochi layers può essere facilmente organizzato in un soingolo gruppo, mentre il PUC di un grande Comune potrebbe essere organizzato appunto in un gruppo suddiviso in sottogruppi come mostrato nell'immagine sotto.
 
 .. image:: img/layer_tree.png
+  :align: center
 
 In ogni caso i layers dello strumento urbanistico devono **necessariamente essere inseriti in un gruppo**, la suddivisione del gruppo in sottogruppi invece è facoltativa.
 
