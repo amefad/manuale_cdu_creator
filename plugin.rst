@@ -110,7 +110,7 @@ Come già anticipato nell'introduzione di questo manuale, nel CDU vengono stampa
 
 * La colonna contenete l'articolo della normativa urbanistica deve essere di **tipo testo** e deve avere **nome o alias** = **articolo** (sia il nome che l'alias sono case insensitive ovvero non influenzati dall'uso di lettere maiuscole/minuscole --> è possibile scrivere articolo, ARTICOLO, Articolo, ArTiCoLo, ecc.). Questa colonna non è obbligatoria, se il plugin non trova un colonna nominata o con alias = *articolo* semplicemente segnalerà con un messaggio di warning che la colonna non è stata trovata nel relativo layer e quindi non stamperà alcun valore nella riga corrispondente del CDU. Qualora invece esistesse una colonna con *nome o alias* = *articolo* nella tabella degli attributi, sono ovviamente ammessi eventuali valori nulli; anche in questo caso il plugin non stamperà alcun valore nella riga corrispondente del CDU.
 
-.. note:: Le colonne **nome, descrizione, riferimento legislativo e articolo** possono essere aggiunte ai layers dello strumento urbanistico anche tramite **un'operazione di join**. Per vedere come creare un Join si rimanda alla documentazione di QGIS al link https://docs.qgis.org/3.4/it/docs/user_manual/working_with_vector/vector_properties.html?#joins-properties .
+.. note:: Le colonne **nome, descrizione, riferimento legislativo e articolo** possono essere aggiunte ai layers dello strumento urbanistico anche tramite **un'operazione di join**. Per vedere come creare un Join si rimanda alla documentazione di QGIS al link https://docs.qgis.org/3.4/it/docs/user_manual/working_with_vector/vector_properties.html#joins-properties .
 
 .. image:: img/lay_urbanistici.gif
 
