@@ -15,7 +15,7 @@ Sia il Plugin che il manuale sono distribuiti con licenza Creative Commons Attri
 Acknowledgements
 ------------------------------------------
 
-La funzione di multi selezione delle particelle catastali per la compilazione utomatica del CDU è stata implementata grazie ai forndi raccolti con la campagna di crowdfunding (http://sostieni.link/23824) che si è conclusa con successo il 15 Marzo 2020. La funzione è ora disponibile grazie al contributo di tutti coloro che hanno supportato il progetto. **Gter vuole quindi ringraziare tutti i sostenitori del Plugin QGIS CDU Creator!** CLICCA QUI :ref: `acknow.rst`_  per vedere l'elenco completo dei sostenitori!
+La funzione di multi selezione delle particelle catastali per la compilazione utomatica del CDU è stata implementata grazie ai forndi raccolti con la campagna di crowdfunding (http://sostieni.link/23824) che si è conclusa con successo il 15 Marzo 2020. La funzione è ora disponibile grazie al contributo di tutti coloro che hanno supportato il progetto. **Gter vuole quindi ringraziare tutti i sostenitori del Plugin QGIS CDU Creator!** `CLICCA QUI <acknow.rst#acknowledgement>`__  per vedere l'elenco completo dei sostenitori!
 
 Scopo
 ------------------------------------------
