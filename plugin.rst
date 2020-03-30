@@ -56,6 +56,7 @@ Il Plugin **CDU Creator** è stato approvato da parte del Team di QGIS, pertanto
 Le istruzioni per l'installazione della libreria python-pillow su macOS sono state gentilmente fornite e condivise da **Ivano Giuliano.**
 
 .. image:: img/error.png
+  :align: center
 
 .. _preparazione-dati:
 
