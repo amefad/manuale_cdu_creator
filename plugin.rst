@@ -143,6 +143,19 @@ Utilizzando gli strumenti di selezione di QGIS (*Seleziona Elementi con un retta
 
 .. note:: Per quanto riguarda l'utilizzo degli strumenti di selezione di QGIS si rimanda alla `documentazione. <https://docs.qgis.org/3.4/it/docs/user_manual/introduction/general_tools.html#selecting-features>`__
 
+.. image:: img/strumenti_selez.gif
+
+Una volta fatta la selezione è ovviamente possibile modificarla, rimuovendo o aggiungendo le particelle alla selezione esistente. I due metodi di selezione sono interoperabili, ciò significa che è possibile fare la selezione tramite gli strumenti di QGIS e rimuovere o aggiungere una o più particelle con gli strumenti dell'interfaccia e viceversa.
+
+Per rimuovere dalla selezione esistente:
+
+* tramite gli strumenti di QGIS utilizzando il metodo **Rimuovi dalla selezione attuale** nel caso ad esempio del tool *Seleziona con espressione*, oppure tenendo premuto il **tasto Ctrl** ad esempio con gli strumenti *Seleziona Elementi con un rettangolo o con un singolo click, Seleziona Elementi con un Poligono, ecc.* In questo caso per aggiornare l'elenco delle particelle selezionate nell'area di testo dedicata, è necessario premere il tasto **Aggiorna** dell'interfaccia grafica.
+* tramite gli strumenti dell'interfaccia grafica è sufficiente selezionare la particella interessata dai menù a tendina (sezione, foglio e mappale) e premere il tasto **Rimuovi**. In questo caso l'elenco delle particelle selezionate nell'area di testo dedicata si aggiorna automaticamente.
+
+Per aggiungere alla selezione esistente:
+
+* tramite gli strumenti di QGIS utilizzando il metodo **Aggiungi dalla selezione attuale** nel caso ad esempio del tool *Seleziona con espressione*, oppure tenendo premuto il **tasto Shift** ad esempio con gli strumenti *Seleziona Elementi con un rettangolo o con un singolo click, Seleziona Elementi con un Poligono, ecc.* In questo caso per aggiornare l'elenco delle particelle selezionate nell'area di testo dedicata, è necessario premere il tasto **Aggiorna** dell'interfaccia grafica.
+* tramite gli strumenti dell'interfaccia grafica è sufficiente selezionare la particella interessata dai menù a tendina (sezione, foglio e mappale) e premere il tasto **Aggiungi**. In questo caso l'elenco delle particelle selezionate nell'area di testo dedicata si aggiorna automaticamente.
 
 
 .. _graphical-user-interface:
