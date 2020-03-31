@@ -135,7 +135,15 @@ La selezione delle particelle
 La selezione della o delle particelle catastali per le qualis is vuole compilare il CDU può essere fatta secondo due modalità:
 
 #. tramite gli strumenti di selezione di QGIS
-#. tremite gli strumenti disponibili dall'interfaccia grafica del Plugin
+#. tramite gli strumenti disponibili dall'interfaccia grafica del Plugin
+
+Strumenti di selezione di QGIS
++++++++++++++++++++++++++++++++++
+Utilizzando gli strumenti di selezione di QGIS (*Seleziona Elementi con un rettangolo o con un singolo click, Seleziona Elementi con un Poligono, Seleziona Elementi a Mano Libera, Seleziona Elementi con un Cerchio, Seleziona con espressione, ecc.*), le particelle possono essere selezionate sia prima di avviare l'interfaccia del plugin cliccando sull'icona nella toolbar, sia dopo l'avvio dell'interfaccia del plugin. Infatti, cliccando sull'icona nella toolbar verrà aperta l'interfaccia del plugin ma la finestra di QGIS resterà attiva e quindi utilizzabile. Se **la selezione è stata fatta prima dell'avvio del plugin**, una volta avviato verranno elencate nell'area di testo dedicata le infromazioni (foglio, mappale e eventuale sezione) relative alle particelle selezionate. Qualora invece **la selezione venga fatta a interfaccia già attiva**, sarà possibile ottenere l'elenco delle particelle selezionate nell'area di testo dedicata semplicemente premendo il tasto **Aggiorna** sull'interfaccia del plugin.
+
+.. note:: Per quanto riguarda l'utilizzo degli strumenti di selezione di QGIS si rimanda alla `documentazione. <https://docs.qgis.org/3.4/it/docs/user_manual/introduction/general_tools.html#selecting-features>`__
+
+
 
 .. _graphical-user-interface:
 
