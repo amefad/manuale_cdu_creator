@@ -145,14 +145,22 @@ Utilizzando gli strumenti di selezione di QGIS (*Seleziona Elementi con un retta
 
 .. image:: img/strumenti_selez.gif
 
+Strumenti di selezione da Interfaccia del plugin
+++++++++++++++++++++++++++++++++++++++++++++++++
+Per seleziona la o le particelle per la quali si vuole compilare il CDU da interfaccia grafica del Plugin, bisogna indicare la particella di interesse utilizzando i menù a tendina *Sezione, Foglio e Mappale*. Come già detto se non è presente nel layer terreni_catastali una colonna *sezione*, il menù corrispondente non viene attivato. E' necessario invece selezionare almeno il *foglio* e il *mappale* per procedere alla selezione. Una volta indicata la particella tramite i menù a tendina, è sufficiente premere il tasto **Aggiungi** per selezionare. Una volta premuto il tasto, la particella viene selezionata, la mappa viene zoommata alla selezione e nell'area di testo dedicata vengono stampate le informazioni relative alla particella. In questo modo è possibile aggiungere tutte le particelle per le quali si vuole compilare il CDU.
+
+.. image:: img/gui_selez.gif
+
+Modifica della selezione esistente
+++++++++++++++++++++++++++++++++++
 Una volta fatta la selezione è ovviamente possibile modificarla, rimuovendo o aggiungendo le particelle alla selezione esistente. I due metodi di selezione sono interoperabili, ciò significa che è possibile fare la selezione tramite gli strumenti di QGIS e rimuovere o aggiungere una o più particelle con gli strumenti dell'interfaccia e viceversa.
 
-Per rimuovere dalla selezione esistente:
+**Per RIMUOVERE dalla selezione esistente:**
 
 * tramite gli strumenti di QGIS utilizzando il metodo **Rimuovi dalla selezione attuale** nel caso ad esempio del tool *Seleziona con espressione*, oppure tenendo premuto il **tasto Ctrl** ad esempio con gli strumenti *Seleziona Elementi con un rettangolo o con un singolo click, Seleziona Elementi con un Poligono, ecc.* In questo caso per aggiornare l'elenco delle particelle selezionate nell'area di testo dedicata, è necessario premere il tasto **Aggiorna** dell'interfaccia grafica.
 * tramite gli strumenti dell'interfaccia grafica è sufficiente selezionare la particella interessata dai menù a tendina (sezione, foglio e mappale) e premere il tasto **Rimuovi**. In questo caso l'elenco delle particelle selezionate nell'area di testo dedicata si aggiorna automaticamente.
 
-Per aggiungere alla selezione esistente:
+**Per AGGIUNGERE alla selezione esistente:**
 
 * tramite gli strumenti di QGIS utilizzando il metodo **Aggiungi dalla selezione attuale** nel caso ad esempio del tool *Seleziona con espressione*, oppure tenendo premuto il **tasto Shift** ad esempio con gli strumenti *Seleziona Elementi con un rettangolo o con un singolo click, Seleziona Elementi con un Poligono, ecc.* In questo caso per aggiornare l'elenco delle particelle selezionate nell'area di testo dedicata, è necessario premere il tasto **Aggiorna** dell'interfaccia grafica.
 * tramite gli strumenti dell'interfaccia grafica è sufficiente selezionare la particella interessata dai menù a tendina (sezione, foglio e mappale) e premere il tasto **Aggiungi**. In questo caso l'elenco delle particelle selezionate nell'area di testo dedicata si aggiorna automaticamente.
