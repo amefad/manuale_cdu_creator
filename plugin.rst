@@ -133,6 +133,7 @@ Ad esempio le riga di codice html sotto verrà stampata come mostrato nell'immag
 La selezione delle particelle
 --------------------------------------------
 La selezione della o delle particelle catastali per le qualis is vuole compilare il CDU può essere fatta secondo due modalità:
+
 #. tramite gli strumenti di selezione di QGIS
 #. tremite gli strumenti disponibili dall'interfaccia grafica del Plugin
 
