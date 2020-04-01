@@ -172,7 +172,7 @@ L'Interfaccia Grafica
 --------------------------------------------
 Tutti parametri in input possono essere specificati dall’utente attraverso l’interfaccia grafica del Plugin **CDU Creator** che si apre cliccando sull’icona del plugin nella toolbar.
 
-**NB.** a seconda della dimensione e del numero di geometrie del layer *terreni_catastali*, l'avvio dell'interfaccia grafica del Plugin CDU Creator potrebbe richiedere qualche istante in più del normale.
+.. note:: A seconda della dimensione e del numero di geometrie del layer *terreni_catastali*, l'avvio dell'interfaccia grafica del Plugin CDU Creator potrebbe richiedere qualche istante in più del normale.
 
 .. image:: img/gui_multi.png
 
@@ -219,7 +219,7 @@ Una volta organizzati i dati seguendo le indicazioni riportate nel paragrafo :re
 * le informazioni relative ai layers dello strumento urbanistico devono essere inserite in quattro colonne della relativa tabella degli attributi rispettivamente nominate **nome, descrizione, riferimento legislativo, articolo**;
 * le quattro colonne nei layers dello strumento urbanistico **NON sono obbligatorie**.
 
-**NB.** Il dataset di esempio, già pronto per l'utilizzo del plugin, è stato realizzato da **Salvatore Fiandaca** (https://pigrecoinfinito.wordpress.com/) ed è scaricabile qui :download:`zip <dati/dati_test_CDU.zip>`.
+.. tip:: Il dataset di esempio, già pronto per l'utilizzo del plugin, è stato realizzato da **Salvatore Fiandaca** (https://pigrecoinfinito.wordpress.com/) ed è scaricabile qui :download:`zip <dati/dati_test_CDU.zip>`.
 Il dataset è stato creato usando parte dei dati presenti nel plugin **CXF_in** (https://github.com/saccon/CXF_in) di **Fabio Saccon**.
 
 Impostare quindi i vari parametri in input dall'interfaccia grafica del Plugin **CDU Creator**.
@@ -240,9 +240,7 @@ Se il processo va a buon fine, comparirà la scritta **PROCESSO TERMINATO** prec
 
 L'output finale è un file PDF (eventualmente multipagina a seconda del contenuto da stampare) contenete tutte le informazioni estratte dai layers dello strumento urbanistico e tutte le personalizzazioni e parametri (titolo, nome comune, logo, intestazioni, n° di protocollo, data, richiedente, ecc.) definiti dall'utente.
 
-**NB.** Come già detto, il Plugin **CDU Creator** funziona per singola particella, qualora si volesse compilare il CDU per più particelle si deve lanciare il plugin per ogni singola particella semplicemente modificando la selezione tramite gli strumenti di selezione di QGIS o tramite i menù a tendina dell'interfaccia grafica.
-
-Di seguito il video tutorial realizzato da **Salvatore Fiandaca** (https://pigrecoinfinito.wordpress.com/) sull'utilizzo del Plugin CDU Creator:
+.. seealso:: Di seguito il video tutorial realizzato da **Salvatore Fiandaca** (https://pigrecoinfinito.wordpress.com/) sull'utilizzo del Plugin CDU Creator:
 
 .. raw:: html
 
