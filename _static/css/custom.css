@@ -5,6 +5,10 @@ p {
     text-align: justify;
 }
 
+ul {
+    text-align: justify;
+}
+
 .wy-nav-side {
     position: fixed;
 }
