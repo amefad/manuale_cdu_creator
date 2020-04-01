@@ -238,7 +238,6 @@ Una volta terminato il processo, l'area di mappa viene automaticamente zoommata 
 Se il processo va a buon fine, comparirà la scritta **PROCESSO TERMINATO** preceduta da un messaggio che indica all'utente in quale cartella è stato salvato il CDU e il nome del file.
 
 .. image:: img/cdu_multi.png
-  :scale: 60 %
   :align: center
 
 L'output finale è un file PDF (eventualmente multipagina a seconda del contenuto da stampare) contenete tutte le informazioni estratte dai layers dello strumento urbanistico e tutte le personalizzazioni e parametri (titolo, nome comune, logo, intestazioni, n° di protocollo, data, richiedente, ecc.) definiti dall'utente.
