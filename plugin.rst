@@ -221,21 +221,25 @@ Una volta organizzati i dati seguendo le indicazioni riportate nel paragrafo :re
 
 .. note:: Il dataset di esempio, già pronto per l'utilizzo del plugin, è stato realizzato da **Salvatore Fiandaca** (https://pigrecoinfinito.wordpress.com/) ed è scaricabile qui :download:`zip <dati/dati_test_CDU.zip>`. Il dataset è stato creato usando parte dei dati presenti nel plugin **CXF_in** (https://github.com/saccon/CXF_in) di **Fabio Saccon**.
 
+.. image:: img/process_multi.gif
+
 Impostare quindi i vari parametri in input dall'interfaccia grafica del Plugin **CDU Creator**.
 
-.. image:: img/esempio_gui1.png
+.. image:: img/esempio_gui_multi.png
 
 Come già detto, la particella per cui si vuole compilare il CDU può essere selezionata con gli strumenti di selezione di QGIS oppure servendosi dei menù a tendina dell'interfaccia grafica. In questo caso la particella è stata selezionata tramite i menù a tendina dell'interfaccia grafica. Essendo il catasto utilizzato come test suddiviso in sezioni, è presente nel layer terreni_catastali anche la colonna nominata sezione. E’ stata quindi selezionata anche la sezione per evitare di incorrere in un messaggio di warning che avvisa l'utente che sono state trovate più particelle con stesso numero di foglio e mappale. Se i dati catastali di test non fossero stati suddivisi in sezioni, sarebbe stato sufficiente selezionare solo il foglio e il mappale.
 
 Una volta definiti i vari parametri in input, premendo il tasto OK il processo sarà avviato, eventuali messaggi di warning o informativi verranno stampati nell'area di Log, in caso di problematiche che compromettono la corretta compilazione del CDU, il processo si interrompe restituendo un messaggio che descrive la problematica riscontrata.
 
-.. image:: img/fine_processo1.png
+.. image:: img/fine_processo_multi.png
 
 Una volta terminato il processo, l'area di mappa viene automaticamente zoommata sulla particella selezionata. In questo caso ad esempio, il Plugin restituisce due messaggi di warning che comunicano all'utente che la colonna *descrizione* non è stata trovata in un certo layer dello strumento urbanistico e la colonna *nome* non è stata trovata in un altro layer dello strumento urbanistico.
 
 Se il processo va a buon fine, comparirà la scritta **PROCESSO TERMINATO** preceduta da un messaggio che indica all'utente in quale cartella è stato salvato il CDU e il nome del file.
 
-.. image:: img/cdu_v.png
+.. image:: img/cdu_multi.png
+  :scale: 80 %
+  :align: center
 
 L'output finale è un file PDF (eventualmente multipagina a seconda del contenuto da stampare) contenete tutte le informazioni estratte dai layers dello strumento urbanistico e tutte le personalizzazioni e parametri (titolo, nome comune, logo, intestazioni, n° di protocollo, data, richiedente, ecc.) definiti dall'utente.
 
